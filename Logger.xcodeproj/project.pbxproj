@@ -13,6 +13,7 @@
 		D4F376081DA6205600DDA33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F376061DA6205600DDA33B /* Main.storyboard */; };
 		D4F3760A1DA6205600DDA33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F376091DA6205600DDA33B /* Assets.xcassets */; };
 		D4F3760D1DA6205600DDA33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F3760B1DA6205600DDA33B /* LaunchScreen.storyboard */; };
+		D4F376161DA631B400DDA33B /* DDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F376151DA631B400DDA33B /* DDUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D4F376091DA6205600DDA33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4F3760C1DA6205600DDA33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4F3760E1DA6205600DDA33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4F376141DA631B400DDA33B /* DDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDUtils.h; sourceTree = "<group>"; };
+		D4F376151DA631B400DDA33B /* DDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				D4F3760B1DA6205600DDA33B /* LaunchScreen.storyboard */,
 				D4F3760E1DA6205600DDA33B /* Info.plist */,
 				D4F375FD1DA6205600DDA33B /* Supporting Files */,
+				D4F376141DA631B400DDA33B /* DDUtils.h */,
+				D4F376151DA631B400DDA33B /* DDUtils.m */,
 			);
 			path = Logger;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4F376051DA6205600DDA33B /* ViewController.m in Sources */,
+				D4F376161DA631B400DDA33B /* DDUtils.m in Sources */,
 				D4F376021DA6205600DDA33B /* AppDelegate.m in Sources */,
 				D4F375FF1DA6205600DDA33B /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				D4F376131DA6205600DDA33B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
