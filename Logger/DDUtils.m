@@ -24,8 +24,8 @@
         return;
     }
     
-    //模拟器，不保存到文件中
-    if ([[UIDevice currentDevice].name  hasSuffix:@"SIMULATOR"] == YES) {
+    //模拟器，不保存到文件中       模拟器--> iPhone Simulator
+    if ([[UIDevice currentDevice].name  hasSuffix:@"Simulator"] == YES) {
         return ;
     }
     
